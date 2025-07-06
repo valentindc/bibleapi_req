@@ -1,10 +1,10 @@
 from fastapi import FastAPI, HTTPException, Depends
 from sqlalchemy.orm import Session
-import crud, models, schemas
+import crud, orm_model, schemas
 from database import SessionLocal, engine
 
 # Crear tablas
-models.Base.metadata.create_all(bind=engine)
+orm_model.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Bible Verse Service")
 
