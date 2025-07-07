@@ -3,4 +3,4 @@ uvicorn[standard]
 sqlalchemy
 pydantic
 httpx
-alembic         # opcional, para migraciones
+alembic
