@@ -13,7 +13,7 @@ Una API REST para consultar versículos bíblicos con caché local y estadístic
 
 1. **Clona el repositorio**
 ```bash
-git clone <tu-repo>
+git clone https://github.com/valentindc/bibleapi_req
 cd bible-verse-api
 ```
 
