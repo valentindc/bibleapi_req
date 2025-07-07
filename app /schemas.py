@@ -33,7 +33,7 @@ class VerseOut(BaseModel):
     translation: Optional[str] = None
     
     class Config:
-        from_attributes = True  # Updated for Pydantic v2
+        from_attributes = True
 
 class TopVerse(BaseModel):
     reference: str
